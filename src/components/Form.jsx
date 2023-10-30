@@ -43,7 +43,7 @@ function Form({ nameProduct = '' }) {
     if (nameProduct) {
       updateProduct(nameProduct, product)
     } else {
-      addProduct(nameProduct, product)
+      addProduct(product)
     }
 
     setName('')
